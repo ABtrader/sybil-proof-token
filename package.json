@@ -1,0 +1,27 @@
+{
+  "name": "sybil-proof-token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^4.0.13",
+    "@nomicfoundation/hardhat-node-test-runner": "^3.0.17",
+    "@nomicfoundation/hardhat-toolbox": "^7.0.0",
+    "@openzeppelin/contracts": "^5.6.1",
+    "@types/node": "^22.19.21",
+    "ethers": "^6.16.0",
+    "hardhat": "^3.9.0",
+    "typescript": "~6.0.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "readline-sync": "^1.4.10"
+  }
+}
